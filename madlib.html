@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>I kissed a girl madlib</title>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+<style>
+    span {
+        color: red;
+        font-size: 1.5em;
+    }
+
+    #pic {
+        width: 150px;
+        height: 150px;
+    }
+
+    body {
+        background-color: lightblue;
+        /*margin: 100px;*/
+    }
+    p {
+        text-align: center;
+    }
+    .jumbotron {
+        background-color: transparent;
+        margin-top:-20px;
+        /*background: url("https://pbs.twimg.com/profile_images/828782933666205696/QJoA5w9d.jpg");*/
+    }
+    .small {
+        font-size: 12px;
+    }
+
+</style>
+<div class="container">
+
+    <div class="jumbotron">
+        <div class="container text-center">
+            <h1 class="text-center">Lyric Swap </h1>
+            <img id="pic" src="https://pbs.twimg.com/profile_images/828782933666205696/QJoA5w9d.jpg">
+            <h4> Choose a pronoun, a verb, and a noun to see what happens to Katy Perry's "I Kissed A Girl" </h4>
+            <h5 class="small"> **Using Knockout.js</h5>
+        </div>
+
+    </div>
+
+    <div class="container">
+
+
+        <div id="lyric">
+            <div class="container">
+                <form>
+                    <div class="form-group row">
+                        <div class="col-sm-1"></div>
+                        <label class="col-sm-1 col-form-label"> Pronoun: </label>
+                        <div class="col-sm-2">
+                            <input class="form-control" data-bind="value: name"/></p>
+                        </div>
+                        <label for="verb" class="col-sm-1 col-form-label"> Verb: </label>
+                        <div class="col-sm-2">
+                            <input id="verb" class="form-control" data-bind="value: verb"/></p>
+                        </div>
+                        <label class="col-sm-1 col-form-label"> Noun: </label>
+                        <div class="col-sm-2">
+                            <input class="form-control" data-bind="value: noun"/></p>
+                        </div>
+                        <!--<button class="col-md-2 btn btn-primary" data-bind='click: $parent.clear'>Reset Words</button>-->
+                    </div>
+
+                </form>
+
+            </div>
+
+
+            <p>
+
+                This was never the way <span data-bind="text: name"> </span> planned <br>
+                Not my intention<br>
+                <span data-bind="text: name"> </span>  got so brave, drink in hand<br>
+                Lost my discretion<br>
+                It's not what, I'm used to<br>
+                Just wanna try you on<br>
+                I'm curious for you<br>
+                Caught my attention<br>
+
+            </p>
+
+            <p>
+
+                <span data-bind="text: name"> </span>  <span data-bind="text: verb"> </span> a <span data-bind="text: noun"> </span> and <span data-bind="text: name"> </span>  liked it <br>
+                The taste of her cherry chap stick <br>
+                <span data-bind="text: name"> </span>  <span data-bind="text: verb"> </span> a <span data-bind="text: noun"></span> just to try it<br>
+                <span data-bind="text: name"> </span>  hope my boyfriend don't mind it<br>
+                It felt so wrong<br>
+                It felt so right<br>
+                Don't mean I'm in love tonight<br>
+                <span data-bind="text: name"> </span>  <span data-bind="text: verb"> </span> a <span data-bind="text: noun"></span> and <span data-bind="text: name"> </span>  liked it<br>
+                <span data-bind="text: name"> </span>  liked it<br>
+
+            </p>
+
+            <p>
+
+                No, <span data-bind="text: name"> </span>  don't even know your name<br>
+                It doesn't matter<br>
+                You're my experimental game<br>
+                Just human nature<br>
+                It's not what, good girls do<br>
+                Not how they should behave<br>
+                My head gets so confused<br>
+                Hard to obey<br>
+
+            </p>
+
+            <p>
+
+                <span data-bind="text: name"> </span>  <span data-bind="text: verb"> </span> a <span data-bind="text: noun"></span> and <span data-bind="text: name"> </span>  liked it<br>
+                The taste of her cherry chap stick<br>
+                <span data-bind="text: name"> </span>  kissed a girl just to try it<br>
+                <span data-bind="text: name"> </span>  hope my boyfriend don't mind it<br>
+                It felt so wrong<br>
+                It felt so right<br>
+                Don't mean I'm in love tonight<br>
+                <span data-bind="text: name"> </span>  <span data-bind="text: verb"> </span> a <span data-bind="text: noun"></span> and <span data-bind="text: name"> </span>  liked it<br>
+                <span data-bind="text: name"> </span>  liked it<br>
+            </p>
+            <p>
+                Us girls we are so magical <br>
+                Soft skin, red lips, so kissable<br>
+                Hard to resist so touchable<br>
+                Too good to deny it<br>
+                Ain't no big deal, it's innocent<br>
+            </p>
+            <p>
+                <span data-bind="text: name"> </span>  <span data-bind="text: verb"> </span> a <span data-bind="text: noun"></span> and <span data-bind="text: name"> </span>  liked it<br>
+                The taste of her cherry chap stick<br>
+                <span data-bind="text: name"> </span>  <span data-bind="text: verb"> </span> a <span data-bind="text: noun"></span> just to try it<br>
+                <span data-bind="text: name"> </span>  hope my boyfriend don't mind it<br>
+                It felt so wrong<br>
+                It felt so right<br>
+                Don't mean I'm in love tonight<br>
+                <span data-bind="text: name"> </span>  <span data-bind="text: verb"> </span> a <span data-bind="text: noun"></span> and <span data-bind="text: name"> </span>  liked it<br>
+                <span data-bind="text: name"> </span>  liked it<br>
+
+            </p>
+
+        </div>
+
+    </div>
+
+
+</div>
+
+
+<script src="https://code.jquery.com/jquery.js"></script>
+<!--Knockout CDN-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.1/knockout-min.js"></script>
+<script type="text/javascript">
+    // Here's my data model
+    var ViewModel = function () {
+        var self = this;
+        self.name = ko.observable('I');
+        self.verb = ko.observable('kissed');
+        self.noun = ko.observable('girl');
+
+//        self.formModel = ko.observable(new FormModel());
+//
+//        self.clear = function(){
+//            self.formModel(new FormModel());
+//        }
+
+    };
+//    var FormModel = function () {
+//        this.name = ko.observable('I');
+//        this.verb = ko.observable('kissed');
+//        this.noun = ko.observable('girl');
+//
+//    };
+    ko.applyBindings(new ViewModel(), document.querySelector('#lryic'));
+</script>
+
+
+</body>
+</html>
